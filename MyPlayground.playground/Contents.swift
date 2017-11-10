@@ -3,10 +3,11 @@
 import UIKit
 
 
-func FizzBuzz(value : Int){
+func FizzBuzz(_ value : Int){
     if value % 15 == 0 {
         print("FizzBuzz")
     }else if value % 5 == 0 {
+        print("Buzz")
     }else if value % 3 == 0 {
         print("Fizz")
     }else{
@@ -15,7 +16,7 @@ func FizzBuzz(value : Int){
 }
 
 for value in 1...100{
-    FizzBuzz(value: value)
+    FizzBuzz(value)
 }
 
 
